@@ -1,3 +1,5 @@
+//카페 상세(동적 라우트)
+
 import { useParams } from 'next/navigation';
 
 export default function CafeDetail() {
