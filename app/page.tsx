@@ -79,7 +79,7 @@ export default function Home() {
           {/* 왼쪽 하단 (1/3 너비) */}
           <button
             className="col-span-1 h-[200px] bg-[#ffffff] rounded-lg flex flex-col justify-center items-center"
-            onClick={() => router.push('/cafe/1')}
+            onClick={() => router.push('/cafe')}
           >
             
             <div className="relative w-70 h-90 mt-0">

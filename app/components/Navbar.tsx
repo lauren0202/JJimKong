@@ -1,11 +1,20 @@
+"use client";
+
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function NavBar() {
+  const router = useRouter();
+
   return (
     <main className="h-[89px]">
       <hr />
       <div className="flex flex-low justify-center items-center gap-15 mt-5">
-        <button>
+        <button
+          onClick={() => router.push("/")}
+          aria-label="home"
+          className="opacity-100"
+        >
           <Image
             src="/assets/home-navbar.svg"
             alt="home"
