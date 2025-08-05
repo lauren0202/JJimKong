@@ -1,6 +1,13 @@
-import Image from "next/image";
 
-export default function AppBar() {
+"use client";
+import Image from "next/image";
+import React from "react";
+
+interface AppBarProps {
+  hideHr?: boolean;
+}
+
+export default function AppBar({ hideHr = false }: AppBarProps) {
   return (
     <main>
       <div className="flex flex-low justify-center mt-[62px]">
@@ -23,7 +30,7 @@ export default function AppBar() {
         />
       </div>
 
-      <hr />
+      {!hideHr && <hr className="border-t border-gray-300" />}
     </main>
   );
 }
