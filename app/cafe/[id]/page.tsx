@@ -1,4 +1,5 @@
 //카페 상세(동적 라우트)
+'use client'
 
 import { useParams } from 'next/navigation';
 
