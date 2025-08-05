@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function NavBar() {
   return (
-    <main className="mt-4 h-[89px]">
+    <main className="h-[89px]">
       <hr />
       <div className="flex flex-low justify-center items-center gap-15 mt-5">
         <button>
