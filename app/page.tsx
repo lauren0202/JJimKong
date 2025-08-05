@@ -99,7 +99,7 @@ export default function Home() {
             onClick={() => router.push('/favorite')}
           >
             
-            <div className="absolute bottom-0 -right-6 w-80 h-50">
+            <div className="absolute bottom-0 -right-9 w-80 h-50">
               <Image
                 src="/favorite.png"
                 alt="관심카페 확인하기 버튼"
@@ -130,7 +130,7 @@ export default function Home() {
 
         {/* 4. 팝업 (구름 240px 높이) */}
         {showPopup && (
-          <div className="absolute bottom-0 left-0 right-0 h-[240px]">
+          <div className="absolute bottom-[-70px] left-0 right-0 h-[240px]">
             <div className="relative h-full w-full">
               <div className="absolute inset-0 overflow-hidden">
                 <Image
