@@ -6,7 +6,7 @@ export default function AppBar() {
       <div className="flex flex-low justify-center mt-[62px]">
         <button>
           <Image
-            src="/assets/menu.svg"
+            src="/assets/menu-appbar.svg"
             alt="menu bar"
             width={48}
             height={48}
@@ -15,7 +15,7 @@ export default function AppBar() {
         </button>
         <p className="text-[22px] pt-2 pl-3 pr-50">찜콩</p>
         <Image
-          src="/assets/logo-map.svg"
+          src="/assets/logo-appbar.png"
           alt="logo"
           width={48}
           height={48}

@@ -78,7 +78,7 @@ export default function MyPage() {
 
         <hr className="w-[342.001px] border-[#535353] mt-2" />
       </div>
-      <div className="flex flex-low items-center mt-2">
+      <div className="flex flex-low items-center mt-2 mb-2">
         <p className="text-[14px]">카페 사장님이신가요?</p>
         <button className="relative w-[200px] h-[30px] overflow-hidden rounded-xl group focus:outline-none">
           <img
